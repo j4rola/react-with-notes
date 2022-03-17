@@ -8,4 +8,7 @@ function Button({action, text}) {
   ) 
 }
 
+//not that this button component can take any text and any function from its parent, making it 
+//reusable for many different situation while we are building.    
+
 export default Button
