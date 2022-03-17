@@ -20,6 +20,7 @@ button {
 } 
 
 .App {
+  padding-top: 8vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,4 +31,32 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#parent {
+  width: 35vw;
+  height: 35vh;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+}
+
+#child {
+  width: 25vw;
+  height: 25vh;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+}
+
+#grandchild {
+  width: 20vw;
+  height: 20vh;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 15px;   
+}
+
+h2 {
+  margin: 5px;
 }
